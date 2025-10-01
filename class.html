@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <title>Document</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+        body {
+            background-color: lightblue;
+        }
+        .card {
+            margin: 20px;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    </style>
+</head>
+<body >
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="fugler.avif" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+      Nepiin
+    </a>
+    <!-- Tombol toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">House</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Rumah</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Suka
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Samyang</a></li>
+            <li><a class="dropdown-item" href="#">Hiu</a></li>
+            <li><a class="dropdown-item" href="#">Fuggler</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="water.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Air</h5>
+        <p class="card-text">Air adalah senyawa yang penting bagi semua bentuk kehidupan di Bumi, yang dapat berwujud cairan, padatan, atau gas.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="samyang.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mie Samyang</h5>
+        <p class="card-text">Mie Samyang sendiri digemari oleh berbagai golongan usia, dan sering menjadi makanan favorit penggemar budaya Korea juga.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 sec ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="shark.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hiu</h5>
+        <p class="card-text">Hiu adalah sekelompok ikan bertulang rawan yang memiliki kerangka tulang rawan yang lengkap dan tubuh yang kokoh.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 weeks ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="fuggler.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fuggler</h5>
+        <p class="card-text">Fuggler adalah boneka imut tapi jelek.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated kapan yah</small>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
